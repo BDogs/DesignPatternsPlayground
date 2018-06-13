@@ -16,6 +16,12 @@
 		F9CD7ED320CF47A50018823A /* DesignPatternsPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CD7ED220CF47A50018823A /* DesignPatternsPlaygroundUITests.swift */; };
 		F9CD7EE320CF4D6E0018823A /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CD7EE220CF4D6E0018823A /* Dog.swift */; };
 		F9CD7EE620CF4E950018823A /* PrototypePatternTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CD7EE520CF4E950018823A /* PrototypePatternTest.swift */; };
+		F9EB4D0D20D0B3FB00C6D594 /* Colleague.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EB4D0C20D0B3FB00C6D594 /* Colleague.swift */; };
+		F9EB4D0F20D0B48F00C6D594 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EB4D0E20D0B48F00C6D594 /* Mediator.swift */; };
+		F9EB4D1220D0E48000C6D594 /* MediatorPatternTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EB4D1120D0E48000C6D594 /* MediatorPatternTest.swift */; };
+		F9EB4D1420D0EAD600C6D594 /* 命令模式.md in Resources */ = {isa = PBXBuildFile; fileRef = F9EB4D1320D0EAD600C6D594 /* 命令模式.md */; };
+		F9EB4D1620D0EAEA00C6D594 /* 中介者模式.md in Resources */ = {isa = PBXBuildFile; fileRef = F9EB4D1520D0EAEA00C6D594 /* 中介者模式.md */; };
+		F9EB4D1820D0EAFE00C6D594 /* 原型模式.md in Resources */ = {isa = PBXBuildFile; fileRef = F9EB4D1720D0EAFE00C6D594 /* 原型模式.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F954FA0820CF8FF20088D48E /* 中介者模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "中介者模式.md"; sourceTree = "<group>"; };
 		F9CD7EAF20CF47A10018823A /* DesignPatternsPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternsPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CD7EB220CF47A10018823A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9CD7EB420CF47A10018823A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,10 +55,14 @@
 		F9CD7ECE20CF47A50018823A /* DesignPatternsPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CD7ED220CF47A50018823A /* DesignPatternsPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsPlaygroundUITests.swift; sourceTree = "<group>"; };
 		F9CD7ED420CF47A50018823A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9CD7EE120CF4CDD0018823A /* 原型模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "原型模式.md"; sourceTree = "<group>"; };
 		F9CD7EE220CF4D6E0018823A /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		F9CD7EE520CF4E950018823A /* PrototypePatternTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePatternTest.swift; sourceTree = "<group>"; };
-		F9EB4D0B20D0A57800C6D594 /* 命令模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "命令模式.md"; sourceTree = "<group>"; };
+		F9EB4D0C20D0B3FB00C6D594 /* Colleague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colleague.swift; sourceTree = "<group>"; };
+		F9EB4D0E20D0B48F00C6D594 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		F9EB4D1120D0E48000C6D594 /* MediatorPatternTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorPatternTest.swift; sourceTree = "<group>"; };
+		F9EB4D1320D0EAD600C6D594 /* 命令模式.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = "命令模式.md"; path = "DesignPatternsPlayground/README/命令模式.md"; sourceTree = SOURCE_ROOT; };
+		F9EB4D1520D0EAEA00C6D594 /* 中介者模式.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = "中介者模式.md"; path = "DesignPatternsPlayground/README/中介者模式.md"; sourceTree = SOURCE_ROOT; };
+		F9EB4D1720D0EAFE00C6D594 /* 原型模式.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = "原型模式.md"; path = "DesignPatternsPlayground/README/原型模式.md"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +93,9 @@
 		F954FA0720CF8FD60088D48E /* 中介者模式 */ = {
 			isa = PBXGroup;
 			children = (
-				F954FA0820CF8FF20088D48E /* 中介者模式.md */,
+				F9EB4D1520D0EAEA00C6D594 /* 中介者模式.md */,
+				F9EB4D0C20D0B3FB00C6D594 /* Colleague.swift */,
+				F9EB4D0E20D0B48F00C6D594 /* Mediator.swift */,
 			);
 			path = "中介者模式";
 			sourceTree = "<group>";
@@ -128,6 +139,7 @@
 		F9CD7EC620CF47A50018823A /* DesignPatternsPlaygroundTests */ = {
 			isa = PBXGroup;
 			children = (
+				F9EB4D1020D0E44300C6D594 /* 中介者模式 */,
 				F9CD7EE420CF4E2B0018823A /* 原型模式 */,
 				F9CD7EC720CF47A50018823A /* DesignPatternsPlaygroundTests.swift */,
 				F9CD7EC920CF47A50018823A /* Info.plist */,
@@ -147,7 +159,7 @@
 		F9CD7EE020CF47B40018823A /* 原型模式 */ = {
 			isa = PBXGroup;
 			children = (
-				F9CD7EE120CF4CDD0018823A /* 原型模式.md */,
+				F9EB4D1720D0EAFE00C6D594 /* 原型模式.md */,
 				F9CD7EE220CF4D6E0018823A /* Dog.swift */,
 			);
 			path = "原型模式";
@@ -164,9 +176,17 @@
 		F9EB4D0A20D0A55600C6D594 /* 命令模式 */ = {
 			isa = PBXGroup;
 			children = (
-				F9EB4D0B20D0A57800C6D594 /* 命令模式.md */,
+				F9EB4D1320D0EAD600C6D594 /* 命令模式.md */,
 			);
 			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		F9EB4D1020D0E44300C6D594 /* 中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB4D1120D0E48000C6D594 /* MediatorPatternTest.swift */,
+			);
+			path = "中介者模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +293,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9EB4D1820D0EAFE00C6D594 /* 原型模式.md in Resources */,
+				F9EB4D1620D0EAEA00C6D594 /* 中介者模式.md in Resources */,
 				F9CD7EBD20CF47A50018823A /* LaunchScreen.storyboard in Resources */,
 				F9CD7EBA20CF47A50018823A /* Assets.xcassets in Resources */,
 				F9CD7EB820CF47A10018823A /* Main.storyboard in Resources */,
+				F9EB4D1420D0EAD600C6D594 /* 命令模式.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +326,8 @@
 				F9CD7EB520CF47A10018823A /* ViewController.swift in Sources */,
 				F9CD7EB320CF47A10018823A /* AppDelegate.swift in Sources */,
 				F9CD7EE320CF4D6E0018823A /* Dog.swift in Sources */,
+				F9EB4D0D20D0B3FB00C6D594 /* Colleague.swift in Sources */,
+				F9EB4D0F20D0B48F00C6D594 /* Mediator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9EB4D1220D0E48000C6D594 /* MediatorPatternTest.swift in Sources */,
 				F9CD7EC820CF47A50018823A /* DesignPatternsPlaygroundTests.swift in Sources */,
 				F9CD7EE620CF4E950018823A /* PrototypePatternTest.swift in Sources */,
 			);
