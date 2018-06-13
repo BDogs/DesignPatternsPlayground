@@ -53,6 +53,7 @@
 		F9CD7EE120CF4CDD0018823A /* 原型模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "原型模式.md"; sourceTree = "<group>"; };
 		F9CD7EE220CF4D6E0018823A /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		F9CD7EE520CF4E950018823A /* PrototypePatternTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePatternTest.swift; sourceTree = "<group>"; };
+		F9EB4D0B20D0A57800C6D594 /* 命令模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "命令模式.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +112,7 @@
 		F9CD7EB120CF47A10018823A /* DesignPatternsPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				F9EB4D0A20D0A55600C6D594 /* 命令模式 */,
 				F954FA0720CF8FD60088D48E /* 中介者模式 */,
 				F9CD7EE020CF47B40018823A /* 原型模式 */,
 				F9CD7EB220CF47A10018823A /* AppDelegate.swift */,
@@ -157,6 +159,14 @@
 				F9CD7EE520CF4E950018823A /* PrototypePatternTest.swift */,
 			);
 			path = "原型模式";
+			sourceTree = "<group>";
+		};
+		F9EB4D0A20D0A55600C6D594 /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB4D0B20D0A57800C6D594 /* 命令模式.md */,
+			);
+			path = "命令模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
